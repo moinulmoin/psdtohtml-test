@@ -1,0 +1,441 @@
+@font-face {
+    font-family: 'Brandon Grotesque-Regular';
+    src: url('fonts/NeutraText-Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Brandon Grotesque-Light';
+    src: url('fonts/Coves-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Brandon Grotesque-Bold';
+    src: url('fonts/Transat-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Brandon Grotesque-Medium';
+    src: url('fonts/Transat-medium.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Brandon Grotesque-Regular';
+    font-weight: 400;
+    color: #777777;
+}
+img {
+    width: 100%;
+}
+#home {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/Escape.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 45px 0;
+}
+.wrapper {
+    width: 72%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 15%;
+    float: left;
+}
+nav {
+    width: 45%;
+    float: right;
+}
+nav ul {
+    float: right;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    color: #fff;
+    font-family: 'Brandon Grotesque-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 23px;
+    line-height: 35px;
+    padding-bottom: 5px;
+    transition: border 0.5s ease-in-out;
+}
+nav a:hover, a.active {
+    border-bottom: 1px solid white;
+}
+.intro {
+    clear: both;
+    width: 75%;
+    margin: 155px auto 80px;
+    text-align: center;
+}
+.intro p {
+    font-family: 'Brandon Grotesque-Light';
+    font-size: 32px;
+    font-weight: 300;
+    opacity: 0.85;
+}
+.intro h1 {
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 45px 0 80px;
+}
+.intro a {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background: none;
+    color: #fff;
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+    font-size: 23px;
+    padding: 15px 60px;
+}
+/* HOME SECTION END */
+/* MAIN-SERVICE SECTION START */
+/* PART 1 */
+.main-service {
+    padding: 90px 0;
+    background-color: #fff;
+}
+.wrapper-2 {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ms_content {
+    width: 69%;
+    float: left;
+}
+.ms_title {
+    font-family: 'Brandon Grotesque-Light';
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75px;
+    color: #222222;
+}
+.ms_title span {
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+
+}
+.ms_text {
+    color: #777777;
+    font-family: 'Brandon Grotesque-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 36px;
+}
+.ms_icon {
+    width: 25%;
+    float: right;
+    margin-top: 50px;
+}
+/* PART 2 */
+.part-2 {
+    background-color: #fafafa;
+}
+.part-2 .ms_icon {
+    width: 25%;
+    float: left;
+}
+.part-2 .ms_content {
+    float: right;
+}
+/* ALL SERVICE SECTION START */
+#service {
+    padding: 90px 0;
+
+}
+.s_item {
+    width: 47%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.s_item:nth-child(odd) {
+    float: left;
+}
+.s_item:nth-child(even) {
+    float: right;
+}
+.s_icon {
+    width: 15%;
+    float: left;
+}
+.s_content {
+    width: 81%;
+    float: right;
+}
+.s_title {
+    font-family: 'Brandon Grotesque-Medium';
+    font-size: 22px;
+    font-weight: 500;
+    color: #222222;
+}
+.s_text {
+    font-family: 'Brandon Grotesque-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 20px;
+    margin-top: 12px;
+}
+/* CLIENTS SECTION */
+#clients {
+    padding: 100px 0;
+    background-color: #fafafa ;
+}
+.c_top {
+text-align: center;
+margin-bottom: 47px;
+}
+.c_top .ms_text {
+    font-size: 22px;
+    margin: 0;
+}
+.c_content {
+    overflow: hidden;
+}
+.content-1 {
+margin-bottom: 37px;
+}
+.c_pic {
+    width: 235px;
+}
+.pic-1 {
+    float: left;
+}
+.pic-2 {
+    float: right;
+}
+.c_speech {
+width: 74%;
+height: 175px;
+padding: 45px 80px;
+margin-top: 30px;
+
+}
+.c_speech p {
+    font-size: 26px;
+    line-height: 28px;
+}
+.c_speech span {
+    font-size: 20px;
+    line-height: 36px;
+    color:#7690c5;
+    margin-top: 5px;
+    display: inline-block;
+} 
+.speech-1 {
+    float: right;
+    background-image: url('../images/Speech-right.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.speech-2 {
+    float: left;
+    background-image: url('../images/Speech-left.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* PARTNER SECTION START */
+.partner {
+    padding: 55px 0;
+}
+.p_logo {
+    width:17%;
+    display: inline-block;
+    margin: 0 35px;
+    vertical-align: middle;
+}
+/* PARTNER SECTION END */
+
+/* Team SECTION START */
+#team {
+    padding: 100px 0;
+    background-color: #000;
+}
+#team .ms_title{
+color: white;
+}
+.t_card {
+    margin: 70px 0 40px;
+}
+.tc_item {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+}
+.tc_item:last-child {
+    margin-right: 0;
+}
+.tc_name {
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+    color: #fff;
+    line-height: 26px;
+    margin: 5px 0 3px;
+}
+.tc_skill {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.tc-icons li {
+    display: inline-block;
+    cursor: pointer;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border:3px solid white;
+    transition: all 0.3s ease;
+    margin-right: 3px;
+}
+.twi:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+}
+.fb:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.pin:hover {
+    background-color: #cb2028;
+    border-color: #cb2028;
+}
+.gog:hover {
+    background-color: #d95232;
+    border-color: #d95232;
+}
+.tc-icons li i {
+    margin-top: 9px;
+}
+.tc_footer {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tc_footer p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #ebebeb;
+}
+
+/* CONTACT SECTION START */
+#contact {
+    background-color: #7690c5;
+    padding: 100px 0;
+    color: #fff;
+}
+.con_content {
+    width: 47%;
+    display: inline-block;
+
+}
+.cont-1 {
+    float: left;
+}
+.cont-2{
+    float: right;
+    margin-top: 12px;
+}
+
+#contact .ms_title {
+    color: #fff;
+}
+.con_text {
+    color: ##f6f8fb;
+    margin-top:20px;
+}
+.con_info li{
+    display: inline-block;
+    width: 45%;
+    font-size: 18px;
+    margin-top: 45px;
+
+}
+.con_info li span{
+    margin-left: 5px;
+}
+.con_info li:nth-child(odd){ 
+float: left;
+}
+.con_info li:nth-child(even) {
+    float: right;
+}
+.cont-2>* {
+    display: block;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+.cont-2 input[type="text"], input[type="email"] {
+    width:100%;
+    height: 50px;
+    font-family: 'Brandon Grotesque-Medium';
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #777777;
+
+}
+::placeholder {
+    color: #bbbbbb;
+}
+.cont-2 textarea {
+    font-family: 'Brandon Grotesque-Medium';
+    font-size:18px;
+    font-weight: 500;
+
+}
+input[type="submit"] {
+    width: 26%;
+    height: 27px;
+    padding: 0;
+    outline: none;
+    background-color: #7690c5;
+    border:1px solid #ffff;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    ;
+    background-color: #ffffff;
+    color: #a8a8a8;
+}
+/* FOOTER SECTION START */
+.f_line {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 72%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+footer{
+    text-align: center;
+    background-color: #7690c5;
+}
+footer p {
+    font-family: 'Brandon Grotesque-Medium';
+    font-size:16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff;
+}
+
+
