@@ -56,7 +56,7 @@ nav ul {
 nav li {
     display: inline-block;
 }
-nav a {
+nav li a {
     color: #fff;
     font-family: 'Brandon Grotesque-Medium';
     font-size: 18px;
@@ -64,9 +64,10 @@ nav a {
     margin-left: 23px;
     line-height: 35px;
     padding-bottom: 5px;
-    transition: border 0.5s ease-in-out;
+    transition: border-bottom 0.3s ease-in;
 }
-nav a:hover, a.active {
+nav li a.active,
+nav li a:hover {
     border-bottom: 1px solid white;
 }
 .intro {
@@ -98,6 +99,11 @@ nav a:hover, a.active {
     font-weight: 700;
     font-size: 23px;
     padding: 15px 60px;
+    transition: 0.3s ease-in-out;
+}
+.intro a:hover {
+    background-color: #fff;
+    color: #777777;
 }
 /* HOME SECTION END */
 /* MAIN-SERVICE SECTION START */
@@ -125,7 +131,6 @@ nav a:hover, a.active {
 .ms_title span {
     font-family: 'Brandon Grotesque-Bold';
     font-weight: 700;
-
 }
 .ms_text {
     color: #777777;
@@ -154,7 +159,6 @@ nav a:hover, a.active {
 /* ALL SERVICE SECTION START */
 #service {
     padding: 90px 0;
-
 }
 .s_item {
     width: 47%;
@@ -260,7 +264,6 @@ margin-top: 30px;
     vertical-align: middle;
 }
 /* PARTNER SECTION END */
-
 /* Team SECTION START */
 #team {
     padding: 100px 0;
@@ -299,7 +302,7 @@ color: white;
     height: 2.5em;
     border-radius: 50%;
     border:3px solid white;
-    transition: all 0.3s ease;
+    transition: 0.3s;
     margin-right: 3px;
 }
 .twi:hover {
@@ -331,7 +334,6 @@ color: white;
     line-height: 26px;
     color: #ebebeb;
 }
-
 /* CONTACT SECTION START */
 #contact {
     background-color: #7690c5;
@@ -341,7 +343,6 @@ color: white;
 .con_content {
     width: 47%;
     display: inline-block;
-
 }
 .cont-1 {
     float: left;
@@ -350,7 +351,6 @@ color: white;
     float: right;
     margin-top: 12px;
 }
-
 #contact .ms_title {
     color: #fff;
 }
@@ -363,7 +363,6 @@ color: white;
     width: 45%;
     font-size: 18px;
     margin-top: 45px;
-
 }
 .con_info li span{
     margin-left: 5px;
@@ -391,6 +390,18 @@ float: left;
     color: #777777;
 
 }
+::-webkit-input-placeholder {
+    color: #bbbbbb;
+}
+::-moz-placeholder {
+    color: #bbbbbb;
+}
+:-ms-input-placeholder {
+    color: #bbbbbb;
+}
+::-ms-input-placeholder {
+    color: #bbbbbb;
+}
 ::placeholder {
     color: #bbbbbb;
 }
@@ -398,7 +409,6 @@ float: left;
     font-family: 'Brandon Grotesque-Medium';
     font-size:18px;
     font-weight: 500;
-
 }
 input[type="submit"] {
     width: 26%;
